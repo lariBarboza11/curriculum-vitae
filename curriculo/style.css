@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #d1d3c3;
+    color: #5a5138;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 400;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+ul {
+    padding-left: 1rem;
+}
+.tituloLista {
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+
+.subtituloLista {
+    font-style: italic;
+    padding-bottom: 0.3rem;
+}
+
+.apresentação {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.boxFoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+}
+
+.itemContato {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones {
+    width: 20px;
+    height: 20px;
+}
+
+.link {
+    color: #5a5138;
+}
+
+.desc {
+    font-style: italic;
+}
+
+section.sectionExp {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+@media screen and (max-width: 700px) {
+    .nome {
+        text-align: center;
+    }
+
+    .descrição {
+        text-align: center;
+    }
+
+    .contato {
+        flex-direction: column;
+    }
+}
